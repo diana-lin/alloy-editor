@@ -34,18 +34,46 @@
                 'position:absolute;' +
                 'width:10px;' +
                 'height:10px;' +
-                'bottom:-5px;' +
-                'right:-5px;' +
+                // 'bottom:-5px;' +
+                // 'right:-5px;' +
                 'background:#000;' +
                 'outline:1px solid #fff;' +
                 // Prevent drag handler from being misplaced (#11207).
                 'line-height:0;' +
-                'cursor:se-resize;' +
+                //'cursor:se-resize;' +
             '}' +
             '.cke_image_resizer_wrapper{' +
                 'position:relative;' +
                 'display:inline-block;' +
                 'line-height:0;' +
+            '}' +
+            // Top-right corner style of the resizer.
+            '.cke_image_resizer.cke_image_resizer_ne{' +
+                'top:-25px;' +
+                'left:auto;' +
+                'right:-15px;' +
+                'cursor:ne-resize;' +
+            '}' +
+            // Top-left corner style of the resizer.
+            '.cke_image_resizer.cke_image_resizer_nw{' +
+                'top:-25px;' +
+                'right:auto;' +
+                'left:-25px;' +
+                'cursor:nw-resize;' +
+            '}' +
+            // Bottom-right corner style of the resizer.
+            '.cke_image_resizer.cke_image_resizer_se{' +
+                'bottom:-15px;' +
+                'left:auto;' +
+                'right:-15px;' +
+                'cursor:se-resize;' +
+            '}' +
+            // Bottom-left corner style of the resizer.
+            '.cke_image_resizer.cke_image_resizer_sw{' +
+                'bottom:-15px;' +
+                'right:auto;' +
+                'left:-25px;' +
+                'cursor:sw-resize;' +
             '}' +
             // Bottom-left corner style of the resizer.
             '.cke_image_resizer.cke_image_resizer_left{' +
